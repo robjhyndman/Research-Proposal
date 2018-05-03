@@ -1,162 +1,237 @@
----
-knit: "bookdown::render_book"
----
-
 \appendix
 
 # Socio-demographic metrics for each electorate {#ch:appendix}
 
-Derived from ABS Census data, spanning years 2001-2016.
+Derived from ABS Census data, spanning years 2001--2016.
 
-ID: Commonwealth Electoral Divison (CED) number
+ID
 
-Electorate: Name of Commonwealth Electoral Division
+: Commonwealth Electoral Divison (CED) number
 
-State: State of CED
+Electorate
 
-Population: Count of persons in CED
+: Name of Commonwealth Electoral Division
+
+State
+
+: State of CED
+
+Population
+
+: Count of persons in CED
 
 ### Age {-}
 
-Age00_04: Percentage of population aged 0-4 years
+Age00_04
 
-Age05_14: Percentage of population aged 5-14 years
+: Percentage of population aged 0-4 years
 
-Age15_19: Percentage of population aged 15-19 years
+Age05_14
 
-Age20_24: Percentage of population aged 20-24 years
+: Percentage of population aged 5-14 years
 
-Age25_34: Percentage of population aged 25-34 years
+Age15_19
 
-Age35_44: Percentage of population aged 35-44 years
+: Percentage of population aged 15-19 years
 
-Age45_54: Percentage of population aged 45-54 years
+Age20_24
 
-Age55_64: Percentage of population aged 55-64 years
+: Percentage of population aged 20-24 years
 
-Age65_74: Percentage of population aged 65-74 years
+Age25_34
 
-Age75_84: Percentage of population aged 75-84 years
+: Percentage of population aged 25-34 years
 
-Age85plus: Percentage of population aged 85+ years
+Age35_44
+
+: Percentage of population aged 35-44 years
+
+Age45_54
+
+: Percentage of population aged 45-54 years
+
+Age55_64
+
+: Percentage of population aged 55-64 years
+
+Age65_74
+
+: Percentage of population aged 65-74 years
+
+Age75_84
+
+: Percentage of population aged 75-84 years
+
+Age85plus
+
+: Percentage of population aged 85+ years
 
 ### Median Statistics  {-}
 
-MedianPersonalIncome: Median weekly personal income
+MedianPersonalIncome
+: Median weekly personal income
 
-MedianHouseholdIncome: Median weekly household income
+MedianHouseholdIncome
+: Median weekly household income
 
-MedianFamilyIncome: Median weekly family income
+MedianFamilyIncome
+: Median weekly family income
 
-MedianAge: Median age
+MedianAge
+: Median age
 
-MedianRent: Median weekly rental payment amount (of those who rent)
+MedianRent
+: Median weekly rental payment amount (of those who rent)
 
-MedianLoanPay: Median mortgage loan repayment amount (of mortgage payments)
+MedianLoanPay
+: Median mortgage loan repayment amount (of mortgage payments)
 
-PersonalIncome_NS: Rate of nonrespondence for questions relating to personal income, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
+PersonalIncome_NS
+: Rate of nonrespondence for questions relating to personal income, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
 
-FamilyIncome_NS: Rate of nonrespondence for questions relating to family income, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
+FamilyIncome_NS
+: Rate of nonrespondence for questions relating to family income, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
 
-HouseholdlIncome_NS: Rate of nonrespondence for questions relating to household income, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
+HouseholdlIncome_NS
+: Rate of nonrespondence for questions relating to household income, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
 
 ### Religion {-}
 
-Christianity: Percentage of respondents that identified as Chrisitan
+Christianity
+: Percentage of respondents that identified as Chrisitan
 
-Catholic: Percentage of respondents that identified as Catholic
+Catholic
+: Percentage of respondents that identified as Catholic
 
-Buddhism: Percentage of respondents that identified as Buddist
+Buddhism
+: Percentage of respondents that identified as Buddist
 
-Islam: Percentage of respondents that identified as Muslim
+Islam
+: Percentage of respondents that identified as Muslim
 
-Judaism: Percentage of respondents that identified as Jewish
+Judaism
+: Percentage of respondents that identified as Jewish
 
-NoReligion: Percentage of respondents that identified as "no religion", "athiest" etc.
+NoReligion
+: Percentage of respondents that identified as "no religion", "athiest" etc.
 
-Religion_NS: Rate of nonrespondence for questions relating to household income, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
+Religion_NS
+: Rate of nonrespondence for questions relating to household income, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
 
 ### Language, Heritage, Birthplace and Citizenship {-}
 
-Indigenous: Percentage of population that identify as Indigenous or Torres Strait Islander
+Indigenous
+: Percentage of population that identify as Indigenous or Torres Strait Islander
 
-AusCitizen: Percentage of population who are Australian Citizens
+AusCitizen
+: Percentage of population who are Australian Citizens
 
-BornOverseas: Percentage of respondents born overseas
+BornOverseas
+: Percentage of respondents born overseas
 
-BornOverseas_NS: Rate of nonrespondence for questions relating to country of birth, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
+BornOverseas_NS
+: Rate of nonrespondence for questions relating to country of birth, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
 
-EnglishOnly: Percentage of respondents that speak English only at home
+EnglishOnly
+: Percentage of respondents that speak English only at home
 
-EnglishOnly_NS: Rate of nonrespondence for questions relating to language spoken at home, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
+EnglishOnly_NS
+: Rate of nonrespondence for questions relating to language spoken at home, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
 
-OtherLanguageHome: Percentage of respondents that speak other languages at home (note: this is 100% - EnglishOnly)
+OtherLanguageHome
+: Percentage of respondents that speak other languages at home (note: this is 100% - EnglishOnly)
 
 ### Employment and Study {-}
 
-Unemployed: Unemployment rate (percentage)
+Unemployed
+: Unemployment rate (percentage)
 
-LFParticipation: Labour force participation rate (percentage)
+LFParticipation
+: Labour force participation rate (percentage)
 
-CurrentlyStudying: Percentage of population that are currently studying (Note that 'not stated' has not been taken into account as this is not available for 2016)
+CurrentlyStudying
+: Percentage of population that are currently studying (Note that 'not stated' has not been taken into account as this is not available for 2016)
 
-HighSchool: Percentage of respondents (15 years and over) that have finished High School
+HighSchool
+: Percentage of respondents (15 years and over) that have finished High School
 
-HighSchool_NS: Rate of nonrespondence for questions relating to High School completion
+HighSchool_NS
+: Rate of nonrespondence for questions relating to High School completion
 
-Bachelor: Percentage of respondents (15 years and over) that have completed a Bachelors degree
+Bachelor
+: Percentage of respondents (15 years and over) that have completed a Bachelors degree
 
-Postgraduate: Percentage of respondents (15 years and over) that have completed a Postgraduate degree
+Postgraduate
+: Percentage of respondents (15 years and over) that have completed a Postgraduate degree
 
-University_NS: Rate of nonrespondence for questions relating to higher education
+University_NS
+: Rate of nonrespondence for questions relating to higher education
 
-Volunteer: Percentage of respondents (15 years and over) that do volunteer work [2006, 2011, 2016]
+Volunteer
+: Percentage of respondents (15 years and over) that do volunteer work [2006, 2011, 2016]
 
-Volunteer_NS: Rate of nonrespondence for questions relating to volunteer work [2006, 2011, 2016]
+Volunteer_NS
+: Rate of nonrespondence for questions relating to volunteer work [2006, 2011, 2016]
 
-EmuneratedElsewhere: Percentage of people who receive emuneration outside of Australia, out of the total population plus overseas visitors [2001 only]
+EmuneratedElsewhere
+: Percentage of people who receive emuneration outside of Australia, out of the total population plus overseas visitors [2001 only]
 
 ### Family and Relationship {-}
 
-Married: Percentage of respondents that are married
+Married
+: Percentage of respondents that are married
 
-DeFacto: Percentage of respondents that are in a De Facto relationship
+DeFacto
+: Percentage of respondents that are in a De Facto relationship
 
-Relationship_NS: Rate of nonrespondence for questions relating to relationship, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
+Relationship_NS
+: Rate of nonrespondence for questions relating to relationship, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
 
-FamilyRatio: Ratio of people in families to the number of total families (ie. average number of people per family)
+FamilyRatio
+: Ratio of people in families to the number of total families (ie. average number of people per family)
 
 ### Dwelling {-}
 
-NotOwned: Percentage of dwellings (respondents only) that are owned outright or on a mortgage
+NotOwned
+: Percentage of dwellings (respondents only) that are owned outright or on a mortgage
+Tenure_NS
 
-Tenure_NS: Rate of nonrespondence for questions relating to tenure, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
+: Rate of nonrespondence for questions relating to tenure, ie. percentage of people who did not answer the question (recorded as "not stated" or "inadequately stated")
 
-InternetAccess: Percentage of dwellings with internet access (of respondents) [2006, 2011, 2016]
+InternetAccess
+: Percentage of dwellings with internet access (of respondents) [2006, 2011, 2016]
 
-InternetAccess_NS: Rate of nonrespondence for questions relating to internet access at home [2006, 2011, 2016]
+InternetAccess_NS
+: Rate of nonrespondence for questions relating to internet access at home [2006, 2011, 2016]
 
 ### Other {-}
 
-InternetUse: Percentage of people who used interent in the last week (of respondents) [2001 only]
+InternetUse
+: Percentage of people who used interent in the last week (of respondents) [2001 only]
 
-InternetAccess_NS: Rate of nonrespondence for questions relating to internet use [2001 only]
-
+InternetAccess_NS
+: Rate of nonrespondence for questions relating to internet use [2001 only]
 
 # Metric distributions across Census years
 
 The figure below shows violin plots for four variables across Census years, providing a snapshot of the variables recorded for each year.
 
-```{r vis-census, fig.cap="All Census derived metrics"}
+```{r vis-census1, fig.cap="Census derived metrics"}
 ggplot(filter(vis_df, measure %in% c(levels(as.factor(vis_df$measure))[c(1:11,13:21)])),
        aes(x=year, y=value, fill=year)) + geom_violin() + facet_wrap(~measure, scales = "free_y") + theme(text=element_text(size=7), axis.text.x=element_text(size=6), axis.text.y=element_text(size=6)) + labs(x = "Year", y = "Metric (%)")
+```
 
+```{r vis-census2, fig.cap="Census derived metrics"}
 ggplot(filter(vis_df, measure %in% c(levels(as.factor(vis_df$measure))[c(14:33)])),
        aes(x=year, y=value, fill=year)) + geom_violin() + facet_wrap(~measure, scales = "free_y") + theme(text=element_text(size=7), axis.text.x=element_text(size=6), axis.text.y=element_text(size=6)) + labs(x = "Year", y = "Metric (%)")
+```
 
+```{r vis-census3, fig.cap="Census derived metrics"}
 ggplot(filter(vis_df, measure %in% c(levels(as.factor(vis_df$measure))[c(34:39,46:58)])),
        aes(x=year, y=value, fill=year)) + geom_violin() + facet_wrap(~measure, scales = "free_y") + theme(text=element_text(size=7), axis.text.x=element_text(size=6), axis.text.y=element_text(size=6)) + labs(x = "Year", y = "Metric (%)")
+```
 
+```{r vis-census4, fig.cap="Census derived metrics"}
 ggplot(filter(vis_df, measure %in% c(levels(as.factor(vis_df$measure))[c(40:45)])),
        aes(x=year, y=value, fill=year)) + geom_violin() + facet_wrap(~measure, scales = "free_y") + theme(text=element_text(size=7), axis.text.x=element_text(size=6), axis.text.y=element_text(size=6)) + labs(x = "Year", y = "Metric (%)")
 ```
@@ -179,7 +254,8 @@ $$
     -1 & -1 & \dots & -1
   \end{bmatrix}
 $$
-Transform back to $\bm{v}_i$ using: $\bm{v}_i = \exp(\bm{w}_i) \cdot v_{iD}$
+Transform back to $\bm{v}_i$ using
+: $\bm{v}_i = \exp(\bm{w}_i) \cdot v_{iD}$
 
 ### Centred Logratio {-}
 
@@ -196,7 +272,8 @@ $$
      -1 & -1 & \dots & D-1
    \end{bmatrix}
 $$
-Transform back to $\bm{v}_i$ using: $v_{ij} = \frac{\exp(w_{ij})}{\sum_{j=1}^D \exp(w_{ij})}$
+Transform back to $\bm{v}_i$ using
+: $v_{ij} = \frac{\exp(w_{ij})}{\sum_{j=1}^D \exp(w_{ij})}$
 
 ### Isometric Logratio {-}
 
@@ -205,7 +282,8 @@ $$
   \text{ilr}_M(\bm{v}_i) = clr(\bm{v}_i)\cdot\bm{M} = \text{ln}(\bm{v}_i) \cdot \bm{M},
 $$
 where $\bm{M}$ is a matrix of $D$ rows and $D-1$ columns such that $\bm{M} \cdot \bm{M}^t = \bm{I}_{D-1}$. $\bm{I}_{D-1}$ is the identity matrix of $D-1$ elements.
-Transform back to $\bm{v}_i$ as: $\bm{v}_i = \exp(\bm{w}_i \space \cdot \space {\bm{M}^{-1}})$
+Transform back to $\bm{v}_i$ as
+: $\bm{v}_i = \exp(\bm{w}_i \space \cdot \space {\bm{M}^{-1}})$
 
 # Raw ABS Census data snapshot
 

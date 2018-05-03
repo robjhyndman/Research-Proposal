@@ -1,8 +1,3 @@
----
-chapter: 3
-knit: "bookdown::render_book"
----
-
 # Data {#ch:Data}
 
 The two main data sources for this research are the Australian Census of Population and Housing from the Australian Bureau of Statistics (ABS), and published federal election results from the Australian Electoral Commission (AEC).
@@ -217,6 +212,6 @@ The 2013 election sits two years after the 2011 Census, and three years before t
 $$\hat{AusCitizen_{Bris,Election,2013}} = \frac{2}{5} \cdot \hat{AusCitizen_{Bris,Election,2011}} + \frac{3}{5} \cdot \hat{AusCitizen_{Bris,Election,2016}}$$
 
 
-
+\todo[inline]{I don't like using multiple characters to represent one thing in an equation. It would be better to have $P$ for population, $A$ for area, etc. Using multiple characters can be ambiguous. This would also avoid the problem of overhang in the equations.}
 
 

@@ -1,7 +1,3 @@
----
-knit: "bookdown::render_book"
----
-
 # Preface {-}
 
 This document is a research proposal, intended for submission as part of the journey that is EBS Honours 2018.

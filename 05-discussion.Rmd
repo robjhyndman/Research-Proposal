@@ -1,8 +1,3 @@
----
-chapter: 5
-knit: "bookdown::render_book"
----
-
 # A brief reflection and discussion {#ch:ReflectionDiscussion}
 
 To date, all effort has been directed towards gathering, cleaning and wrangling the data from the ABS and AEC into workable $R$ objects. Navigating the AEC and ABS websites to obtain the vote counts and Census data was relatively straightforward,  although the 2001 election required direct contact with the AEC, as it is not downloadable online. Finding the GIS maps for each event was a little more difficult, but could be sourced from various government websites after some searching.

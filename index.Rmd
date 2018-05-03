@@ -9,6 +9,28 @@ link-citations: yes
 knit: "bookdown::render_book"
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, cache=TRUE, warning = FALSE)
+# Load any R packages you need here
+library(ggplot2)
+library(tidyverse)
+library(sp)
+library(rgeos)
+library(jpeg)
+vis_df <- readRDS("data/vis_df.rds")
+vis_df$year <- as.factor(vis_df$year)
+levels(vis_df$year) <- c("2001", "2006", "2011", "2016")
+
+elec_poly <- readRDS("data/Brisbane_poly.rds")
+cens_poly <- readRDS("data/Census_poly.rds")
+cens_bris_poly <- readRDS("data/cens_bris_poly.rds")
+cens_grif_poly <- readRDS("data/cens_grif_poly.rds")
+cens_lill_poly <- readRDS("data/cens_lill_poly.rds")
+bris_int <- "data/bris_int_poly.rds"
+lill_int <- "data/lill_int_poly.rds"
+```
+
+
 <!--
 Edit these lines as appropriate.
 The actual thesis content is in several Rmd files.
